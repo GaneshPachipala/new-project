@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 1%;
+    border-radius: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #f4f7f6;
+    color:#333;
+    line-height: 1.7;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 5%;
+    align-items: center;
+    background: green;
+    color: white;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+    right: 10%
+}
+.navlinks{
+    display: flex;
+    list-style:none;
+}
+.navlinks li{
+    margin-left: 20px;
+
+}
+.navlinks a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.navlinks a:hover{
+   color:red  
+}
+.hero{
+    height: 60vh;
+    top:0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:url(ganesh.jpg/971.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: image-set();
+    background-attachment: scroll;
+    color: rgb(64, 255, 0);
+    padding: 15%;
+
+}
+.hi{
+    color:white;
+}
+.hero-content{
+    top: 2rem;
+
+}
+.btn{
+    color: rgb(121, 14, 14);
+    width:10%;
+    padding: 10px 25px;
+    margin-top:20px;
+    display: inline-block;
+    background: #3498db;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 2rem;
+
+}
+.btn:hover{
+    transform: scale(1.25);
+    background:black;
+}
+.projects-section{
+    padding: 50px 5px;
+    text-align: center;
+    justify-content: center;
+}
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow:brown;
+}
+.card-image{
+    height:150px;
+    background: #ddd;
+    margin-bottom: 15px;
+    border-radius:4px ;
+}
+.contact-section{
+    max-width: 600px;
+    margin: 30px auto;
+   display: flex;
+    flex-direction:column;
+    gap: 15px;
+}
+.contact-form input, .contact-form textarea{
+    padding: 0px;
+    border-radius:5px;
+    border:none;
+}
+@media (max-width:760px){
+    .navbar{
+        flex-direction: column;
+    }
+}
+.navlinks{
+    margin-top: 15px;
+}
+.gane:hover{
+    
+    background-color: chartreuse;
+
+}
+.gane , .navlinks{
+    cursor: pointer;
+}
+.mom{
+    font-size: 40px;
+}
+.dad{
+    cursor: pointer;
+}
