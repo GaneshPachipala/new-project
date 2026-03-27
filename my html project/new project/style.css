@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0%;
     padding: 0%;
     border-radius: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -14,7 +14,7 @@ body{
     justify-content: space-between;
     padding: 0.5rem 5%;
     align-items: center;
-    background: green;
+    background: rgb(128, 0, 0);
     color: white;
     position: sticky;
     top:0;
@@ -50,7 +50,7 @@ body{
     background-repeat: no-repeat;
     background-image: image-set();
     background-attachment: scroll;
-    color: rgb(64, 255, 0);
+    color: yellow;
     padding: 15%;
 
 }
@@ -63,11 +63,7 @@ body{
 }
 .btn{
     color: rgb(121, 14, 14);
-    width:10%;
-    padding: 10px 25px;
-    margin-top:20px;
-    display: inline-block;
-    background: #3498db;
+    background: #db3477;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -106,18 +102,7 @@ body{
     margin-bottom: 15px;
     border-radius:4px ;
 }
-.contact-section{
-    max-width: 600px;
-    margin: 30px auto;
-   display: flex;
-    flex-direction:column;
-    gap: 15px;
-}
-.contact-form input, .contact-form textarea{
-    padding: 0px;
-    border-radius:5px;
-    border:none;
-}
+
 @media (max-width:760px){
     .navbar{
         flex-direction: column;
@@ -126,17 +111,35 @@ body{
 .navlinks{
     margin-top: 15px;
 }
-.gane:hover{
-    
-    background-color: chartreuse;
+.mom{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
 }
-.gane , .navlinks{
+.ss :hover{
+   cursor: pointer;
+   width: 5rem;
+   padding: auto;
+   background-color: green;
+}
+.ss{
+    text-align: center;
+}
+.navlinks :hover{
     cursor: pointer;
 }
-.mom{
-    font-size: 40px;
-}
-.dad{
+.navbar :hover{
     cursor: pointer;
 }
+.logo{
+    font-size:x-large;
+}
+#Contacts{
+    scroll-margin-top: 70px;
+}
+#Projects{
+    scroll-margin-top: 70px;
+    
+}
+
